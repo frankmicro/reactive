@@ -1,0 +1,22 @@
+{
+  "name": "reactive",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/frankmicro/reactive.git"
+  },
+  "author": "rohan parkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankmicro/reactive/issues"
+  },
+  "homepage": "https://github.com/frankmicro/reactive#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
