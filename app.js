@@ -17,10 +17,11 @@ const heading = React.createElement('h1', { //type or name of tag
     "key":"h1"
 }, 'Hello React!')//text
 //core library will always be there
-const header2 = React.createElement('h2', {
-    "id":"h2",
-    "key":"h2"
-}, 'Header 2')
+const header2 = (
+    <h2 id="h2" key="h2">
+        Header2
+    </h2>
+) 
 const header3 = React.createElement('h3', {
     "id":"h3",
     "key":"h3"
