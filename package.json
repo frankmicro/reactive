@@ -19,6 +19,7 @@
   "homepage": "https://github.com/frankmicro/reactive#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@parcel/css": "^1.14.0",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
@@ -26,6 +27,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "@parcel/transformer-css": {
+    "cssModules": true
   },
   "browsersList": [
     "last 10 Chrome versions"
